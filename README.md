@@ -34,7 +34,7 @@ Para compilar o programa, execute o seguinte comando no terminal:
 
 Para executar o programa, use o seguinte comando:
 ```
-    .mpirun -np <p> ./codv2 <n> <t>
+    mpirun -np <p> ./codv2 <n> <t>
 ```
 Onde p é o número de processos, n é o tamanho do tabuleiro e t é o número de threads que serão utilizadas para resolver o problema. Se o argumento t não for especificado, o programa executará de forma sequencial.
 
